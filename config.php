@@ -1,9 +1,9 @@
-<?php 
-
+<?php
 $hostname = "localhost";
 $username = "root";
 $password = "";
-$dbname = "IOT";
+$dbname = "iot";
 
-$conn = new mysqli($server, $username, $password, $dbname);
+$conn = new mysqli($hostname, $username, $password, $dbname) or die ('gagal melakukan koneksi');
+
 ?>
