@@ -7,7 +7,7 @@
 
 //wifi dan password
 const char* ssid = "Data_Soft";
-const char* password = "Bersyukurlah";
+const char* password = "";
 
 //koneksi web server
 const char* host = "canora.site";
